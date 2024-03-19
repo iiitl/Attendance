@@ -1,0 +1,2062 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical">
+
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="10dp"
+                android:background="?android:attr/dividerVertical" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#65B3E8"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/b0"
+                    android:layout_width="1dp"
+                    android:layout_height="1dp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textView"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text="INFORMATION TECHNOLOGY"
+                        android:textColor="#FFFFFF"
+                        android:textSize="25sp" />
+
+                    <TextView
+                        android:id="@+id/textView2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text="INFORMATION TECHNOLOGY"
+                        android:textColor="#FFFFFF"
+                        android:textSize="15sp" />
+                </LinearLayout>
+            </LinearLayout>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="10dp"
+                android:background="?android:attr/dividerVertical" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="#65B3E8"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/t1"
+                    android:layout_width="264dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_weight="1"
+                    android:text="1 . Ayush Yadav"
+                    android:textColor="#090909"
+                    android:textSize="20sp" />
+
+                <Button
+                    android:id="@+id/b1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="72dp"
+                    android:layout_weight="1"
+                    android:background="#00ff00"
+                    android:onClick="b1"
+                    android:text="Present"
+                    app:iconGravity="end" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="10dp"
+                android:background="?android:attr/dividerVertical" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="#65B3E8"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/t2"
+                    android:layout_width="264dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_weight="1"
+                    android:text="2. Maneesh Shukla"
+                    android:textColor="#090909"
+                    android:textSize="20sp" />
+
+                <Button
+                    android:id="@+id/b2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="72dp"
+                    android:layout_weight="1"
+                    android:background="#00ff00"
+                    android:onClick="b2"
+                    android:text="Present"
+                    app:iconGravity="end" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="10dp"
+                android:background="?android:attr/dividerVertical" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="#65B3E8"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/t3"
+                    android:layout_width="264dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_weight="1"
+                    android:text="3. Anurag Yadav"
+                    android:textColor="#090909"
+                    android:textSize="20sp" />
+
+                <Button
+                    android:id="@+id/b3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="72dp"
+                    android:layout_weight="1"
+                    android:background="#00ff00"
+                    android:onClick="b3"
+                    android:text="Present"
+                    app:iconGravity="end" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="10dp"
+                android:background="?android:attr/dividerVertical" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="#65B3E8"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/t4"
+                    android:layout_width="264dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_weight="1"
+                    android:text="4. Rishiraj Mukharjee"
+                    android:textColor="#090909"
+                    android:textSize="20sp" />
+
+                <Button
+                    android:id="@+id/b4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="72dp"
+                    android:layout_weight="1"
+                    android:background="#00ff00"
+                    android:onClick="b4"
+                    android:text="Present"
+                    app:iconGravity="end" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="10dp"
+                android:background="?android:attr/dividerVertical" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="#65B3E8"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/t5"
+                    android:layout_width="264dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_weight="1"
+                    android:text="5. Mayank Mishra"
+                    android:textColor="#090909"
+                    android:textSize="20sp" />
+
+                <Button
+                    android:id="@+id/b5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="72dp"
+                    android:layout_weight="1"
+                    android:background=" #00ff00"
+                    android:onClick="b5"
+                    android:text="Present"
+                    app:iconGravity="end" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="10dp"
+                android:background="?android:attr/dividerVertical" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="#65B3E8"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/t6"
+                    android:layout_width="264dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_weight="1"
+                    android:text="5. Mayank Mishra"
+                    android:textColor="#090909"
+                    android:textSize="20sp" />
+
+                <Button
+                    android:id="@+id/b6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="72dp"
+                    android:layout_weight="1"
+                    android:background=" #00ff00"
+                    android:onClick="b6"
+                    android:text="Present"
+                    app:iconGravity="end" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="10dp"
+                android:background="?android:attr/dividerVertical" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="#65B3E8"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/t7"
+                    android:layout_width="264dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_weight="1"
+                    android:text="5. Mayank Mishra"
+                    android:textColor="#090909"
+                    android:textSize="20sp" />
+
+                <Button
+                    android:id="@+id/b7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="72dp"
+                    android:layout_weight="1"
+                    android:background=" #00ff00"
+                    android:onClick="b7"
+                    android:text="Present"
+                    app:iconGravity="end" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="10dp"
+                android:background="?android:attr/dividerVertical" />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="#65B3E8"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/t8"
+                    android:layout_width="264dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_weight="1"
+                    android:text="5. Mayank Mishra"
+                    android:textColor="#090909"
+                    android:textSize="20sp" />
+
+                <Button
+                    android:id="@+id/b8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="72dp"
+                    android:layout_weight="1"
+                    android:background=" #00ff00"
+                    android:onClick="b8"
+                    android:text="Present"
+                    app:iconGravity="end" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="10dp"
+                android:background="?android:attr/dividerVertical" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="#65B3E8"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/t9"
+                    android:layout_width="264dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_weight="1"
+                    android:text="5. Mayank Mishra"
+                    android:textColor="#090909"
+                    android:textSize="20sp" />
+
+                <Button
+                    android:id="@+id/b9"
+                    android:layout_width="wrap_content"
+                    android:layout_height="72dp"
+                    android:layout_weight="1"
+                    android:background=" #00ff00"
+                    android:onClick="b9"
+                    android:text="Present"
+                    app:iconGravity="end" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="10dp"
+                android:background="?android:attr/dividerVertical" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="#65B3E8"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/t10"
+                    android:layout_width="264dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_weight="1"
+                    android:text="5. Mayank Mishra"
+                    android:textColor="#090909"
+                    android:textSize="20sp" />
+
+                <Button
+                    android:id="@+id/b10"
+                    android:layout_width="wrap_content"
+                    android:layout_height="72dp"
+                    android:layout_weight="1"
+                    android:background=" #00ff00"
+                    android:onClick="b10"
+                    android:text="Present"
+                    app:iconGravity="end" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="10dp"
+                android:background="?android:attr/dividerVertical" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="#65B3E8"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/t11"
+                    android:layout_width="264dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_weight="1"
+                    android:text="5. Mayank Mishra"
+                    android:textColor="#090909"
+                    android:textSize="20sp" />
+
+                <Button
+                    android:id="@+id/b11"
+                    android:layout_width="wrap_content"
+                    android:layout_height="72dp"
+                    android:layout_weight="1"
+                    android:background=" #00ff00"
+                    android:onClick="b11"
+                    android:text="Present"
+                    app:iconGravity="end" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="10dp"
+                android:background="?android:attr/dividerVertical" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="#65B3E8"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/t12"
+                    android:layout_width="264dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_weight="1"
+                    android:text="5. Mayank Mishra"
+                    android:textColor="#090909"
+                    android:textSize="20sp" />
+
+                <Button
+                    android:id="@+id/b12"
+                    android:layout_width="wrap_content"
+                    android:layout_height="72dp"
+                    android:layout_weight="1"
+                    android:background=" #00ff00"
+                    android:onClick="b12"
+                    android:text="Present"
+                    app:iconGravity="end" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="10dp"
+                android:background="?android:attr/dividerVertical" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="#65B3E8"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/t13"
+                    android:layout_width="264dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_weight="1"
+                    android:text="5. Mayank Mishra"
+                    android:textColor="#090909"
+                    android:textSize="20sp" />
+
+                <Button
+                    android:id="@+id/b13"
+                    android:layout_width="wrap_content"
+                    android:layout_height="72dp"
+                    android:layout_weight="1"
+                    android:background=" #00ff00"
+                    android:onClick="b13"
+                    android:text="Present"
+                    app:iconGravity="end" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="10dp"
+                android:background="?android:attr/dividerVertical" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="#65B3E8"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/t14"
+                    android:layout_width="264dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_weight="1"
+                    android:text="5. Mayank Mishra"
+                    android:textColor="#090909"
+                    android:textSize="20sp" />
+
+                <Button
+                    android:id="@+id/b14"
+                    android:layout_width="wrap_content"
+                    android:layout_height="72dp"
+                    android:layout_weight="1"
+                    android:background=" #00ff00"
+                    android:onClick="b14"
+                    android:text="Present"
+                    app:iconGravity="end" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="10dp"
+                android:background="?android:attr/dividerVertical" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="#65B3E8"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/t15"
+                    android:layout_width="264dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_weight="1"
+                    android:text="5. Mayank Mishra"
+                    android:textColor="#090909"
+                    android:textSize="20sp" />
+
+                <Button
+                    android:id="@+id/b15"
+                    android:layout_width="wrap_content"
+                    android:layout_height="72dp"
+                    android:layout_weight="1"
+                    android:background=" #00ff00"
+                    android:onClick="b15"
+                    android:text="Present"
+                    app:iconGravity="end" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="10dp"
+                android:background="?android:attr/dividerVertical" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="#65B3E8"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/t16"
+                    android:layout_width="264dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_weight="1"
+                    android:text="5. Mayank Mishra"
+                    android:textColor="#090909"
+                    android:textSize="20sp" />
+
+                <Button
+                    android:id="@+id/b16"
+                    android:layout_width="wrap_content"
+                    android:layout_height="72dp"
+                    android:layout_weight="1"
+                    android:background=" #00ff00"
+                    android:onClick="b16"
+                    android:text="Present"
+                    app:iconGravity="end" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="10dp"
+                android:background="?android:attr/dividerVertical" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="#65B3E8"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/t17"
+                    android:layout_width="264dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_weight="1"
+                    android:text="5. Mayank Mishra"
+                    android:textColor="#090909"
+                    android:textSize="20sp" />
+
+                <Button
+                    android:id="@+id/b17"
+                    android:layout_width="wrap_content"
+                    android:layout_height="72dp"
+                    android:layout_weight="1"
+                    android:background=" #00ff00"
+                    android:onClick="b17"
+                    android:text="Present"
+                    app:iconGravity="end" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="10dp"
+                android:background="?android:attr/dividerVertical" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="#65B3E8"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/t18"
+                    android:layout_width="264dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_weight="1"
+                    android:text="5. Mayank Mishra"
+                    android:textColor="#090909"
+                    android:textSize="20sp" />
+
+                <Button
+                    android:id="@+id/b18"
+                    android:layout_width="wrap_content"
+                    android:layout_height="72dp"
+                    android:layout_weight="1"
+                    android:background=" #00ff00"
+                    android:onClick="b18"
+                    android:text="Present"
+                    app:iconGravity="end" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="10dp"
+                android:background="?android:attr/dividerVertical" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="#65B3E8"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/t19"
+                    android:layout_width="264dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_weight="1"
+                    android:text="5. Mayank Mishra"
+                    android:textColor="#090909"
+                    android:textSize="20sp" />
+
+                <Button
+                    android:id="@+id/b19"
+                    android:layout_width="wrap_content"
+                    android:layout_height="72dp"
+                    android:layout_weight="1"
+                    android:background=" #00ff00"
+                    android:onClick="b19"
+                    android:text="Present"
+                    app:iconGravity="end" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="10dp"
+                android:background="?android:attr/dividerVertical" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="#65B3E8"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/t20"
+                    android:layout_width="264dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_weight="1"
+                    android:text="5. Mayank Mishra"
+                    android:textColor="#090909"
+                    android:textSize="20sp" />
+
+                <Button
+                    android:id="@+id/b20"
+                    android:layout_width="wrap_content"
+                    android:layout_height="72dp"
+                    android:layout_weight="1"
+                    android:background=" #00ff00"
+                    android:onClick="b20"
+                    android:text="Present"
+                    app:iconGravity="end" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="10dp"
+                android:background="?android:attr/dividerVertical" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="#65B3E8"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/t21"
+                    android:layout_width="264dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_weight="1"
+                    android:text="5. Mayank Mishra"
+                    android:textColor="#090909"
+                    android:textSize="20sp" />
+
+                <Button
+                    android:id="@+id/b21"
+                    android:layout_width="wrap_content"
+                    android:layout_height="72dp"
+                    android:layout_weight="1"
+                    android:background=" #00ff00"
+                    android:onClick="b21"
+                    android:text="Present"
+                    app:iconGravity="end" />
+            </LinearLayout>
+
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="10dp"
+                android:background="?android:attr/dividerVertical" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="#65B3E8"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/t22"
+                    android:layout_width="264dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_weight="1"
+                    android:text="5. Mayank Mishra"
+                    android:textColor="#090909"
+                    android:textSize="20sp" />
+
+                <Button
+                    android:id="@+id/b22"
+                    android:layout_width="wrap_content"
+                    android:layout_height="72dp"
+                    android:layout_weight="1"
+                    android:background=" #00ff00"
+                    android:onClick="b22"
+                    android:text="Present"
+                    app:iconGravity="end" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="10dp"
+                android:background="?android:attr/dividerVertical" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="#65B3E8"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/t23"
+                    android:layout_width="264dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_weight="1"
+                    android:text="5. Mayank Mishra"
+                    android:textColor="#090909"
+                    android:textSize="20sp" />
+
+                <Button
+                    android:id="@+id/b23"
+                    android:layout_width="wrap_content"
+                    android:layout_height="72dp"
+                    android:layout_weight="1"
+                    android:background=" #00ff00"
+                    android:onClick="b23"
+                    android:text="Present"
+                    app:iconGravity="end" />
+            </LinearLayout>
+
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="10dp"
+                android:background="?android:attr/dividerVertical" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="#65B3E8"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/t24"
+                    android:layout_width="264dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_weight="1"
+                    android:text="5. Mayank Mishra"
+                    android:textColor="#090909"
+                    android:textSize="20sp" />
+
+                <Button
+                    android:id="@+id/b24"
+                    android:layout_width="wrap_content"
+                    android:layout_height="72dp"
+                    android:layout_weight="1"
+                    android:background=" #00ff00"
+                    android:onClick="b24"
+                    android:text="Present"
+                    app:iconGravity="end" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="10dp"
+                android:background="?android:attr/dividerVertical" />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="#65B3E8"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/t25"
+                    android:layout_width="264dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_weight="1"
+                    android:text="5. Mayank Mishra"
+                    android:textColor="#090909"
+                    android:textSize="20sp" />
+
+                <Button
+                    android:id="@+id/b25"
+                    android:layout_width="wrap_content"
+                    android:layout_height="72dp"
+                    android:layout_weight="1"
+                    android:background=" #00ff00"
+                    android:onClick="b25"
+                    android:text="Present"
+                    app:iconGravity="end" />
+            </LinearLayout>
+
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="10dp"
+                android:background="?android:attr/dividerVertical" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="#65B3E8"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/t26"
+                    android:layout_width="264dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_weight="1"
+                    android:text="5. Mayank Mishra"
+                    android:textColor="#090909"
+                    android:textSize="20sp" />
+
+                <Button
+                    android:id="@+id/b26"
+                    android:layout_width="wrap_content"
+                    android:layout_height="72dp"
+                    android:layout_weight="1"
+                    android:background=" #00ff00"
+                    android:onClick="b26"
+                    android:text="Present"
+                    app:iconGravity="end" />
+            </LinearLayout>
+
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="10dp"
+                android:background="?android:attr/dividerVertical" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="#65B3E8"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/t27"
+                    android:layout_width="264dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_weight="1"
+                    android:text="5. Mayank Mishra"
+                    android:textColor="#090909"
+                    android:textSize="20sp" />
+
+                <Button
+                    android:id="@+id/b27"
+                    android:layout_width="wrap_content"
+                    android:layout_height="72dp"
+                    android:layout_weight="1"
+                    android:background=" #00ff00"
+                    android:onClick="b27"
+                    android:text="Present"
+                    app:iconGravity="end" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="10dp"
+                android:background="?android:attr/dividerVertical" />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="#65B3E8"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/t28"
+                    android:layout_width="264dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_weight="1"
+                    android:text="5. Mayank Mishra"
+                    android:textColor="#090909"
+                    android:textSize="20sp" />
+
+                <Button
+                    android:id="@+id/b28"
+                    android:layout_width="wrap_content"
+                    android:layout_height="72dp"
+                    android:layout_weight="1"
+                    android:background=" #00ff00"
+                    android:onClick="b28"
+                    android:text="Present"
+                    app:iconGravity="end" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="10dp"
+                android:background="?android:attr/dividerVertical" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="#65B3E8"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/t29"
+                    android:layout_width="264dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_weight="1"
+                    android:text="5. Mayank Mishra"
+                    android:textColor="#090909"
+                    android:textSize="20sp" />
+
+                <Button
+                    android:id="@+id/b29"
+                    android:layout_width="wrap_content"
+                    android:layout_height="72dp"
+                    android:layout_weight="1"
+                    android:background=" #00ff00"
+                    android:onClick="b29"
+                    android:text="Present"
+                    app:iconGravity="end" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="10dp"
+                android:background="?android:attr/dividerVertical" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="#65B3E8"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/t30"
+                    android:layout_width="264dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_weight="1"
+                    android:text="5. Mayank Mishra"
+                    android:textColor="#090909"
+                    android:textSize="20sp" />
+
+                <Button
+                    android:id="@+id/b30"
+                    android:layout_width="wrap_content"
+                    android:layout_height="72dp"
+                    android:layout_weight="1"
+                    android:background=" #00ff00"
+                    android:onClick="b30"
+                    android:text="Present"
+                    app:iconGravity="end" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="10dp"
+                android:background="?android:attr/dividerVertical" />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="#65B3E8"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/t31"
+                    android:layout_width="264dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_weight="1"
+                    android:text="5. Mayank Mishra"
+                    android:textColor="#090909"
+                    android:textSize="20sp" />
+
+                <Button
+                    android:id="@+id/b31"
+                    android:layout_width="wrap_content"
+                    android:layout_height="72dp"
+                    android:layout_weight="1"
+                    android:background=" #00ff00"
+                    android:onClick="b31"
+                    android:text="Present"
+                    app:iconGravity="end" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="10dp"
+                android:background="?android:attr/dividerVertical" />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="#65B3E8"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/t32"
+                    android:layout_width="264dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_weight="1"
+                    android:text="5. Mayank Mishra"
+                    android:textColor="#090909"
+                    android:textSize="20sp" />
+
+                <Button
+                    android:id="@+id/b32"
+                    android:layout_width="wrap_content"
+                    android:layout_height="72dp"
+                    android:layout_weight="1"
+                    android:background=" #00ff00"
+                    android:onClick="b32"
+                    android:text="Present"
+                    app:iconGravity="end" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="10dp"
+                android:background="?android:attr/dividerVertical" />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="#65B3E8"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/t33"
+                    android:layout_width="264dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_weight="1"
+                    android:text="5. Mayank Mishra"
+                    android:textColor="#090909"
+                    android:textSize="20sp" />
+
+                <Button
+                    android:id="@+id/b33"
+                    android:layout_width="wrap_content"
+                    android:layout_height="72dp"
+                    android:layout_weight="1"
+                    android:background=" #00ff00"
+                    android:onClick="b33"
+                    android:text="Present"
+                    app:iconGravity="end" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="10dp"
+                android:background="?android:attr/dividerVertical" />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="#65B3E8"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/t34"
+                    android:layout_width="264dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_weight="1"
+                    android:text="5. Mayank Mishra"
+                    android:textColor="#090909"
+                    android:textSize="20sp" />
+
+                <Button
+                    android:id="@+id/b34"
+                    android:layout_width="wrap_content"
+                    android:layout_height="72dp"
+                    android:layout_weight="1"
+                    android:background=" #00ff00"
+                    android:onClick="b34"
+                    android:text="Present"
+                    app:iconGravity="end" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="10dp"
+                android:background="?android:attr/dividerVertical" />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="#65B3E8"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/t35"
+                    android:layout_width="264dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_weight="1"
+                    android:text="5. Mayank Mishra"
+                    android:textColor="#090909"
+                    android:textSize="20sp" />
+
+                <Button
+                    android:id="@+id/b35"
+                    android:layout_width="wrap_content"
+                    android:layout_height="72dp"
+                    android:layout_weight="1"
+                    android:background=" #00ff00"
+                    android:onClick="b35"
+                    android:text="Present"
+                    app:iconGravity="end" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="10dp"
+                android:background="?android:attr/dividerVertical" />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="#65B3E8"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/t36"
+                    android:layout_width="264dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_weight="1"
+                    android:text="5. Mayank Mishra"
+                    android:textColor="#090909"
+                    android:textSize="20sp" />
+
+                <Button
+                    android:id="@+id/b36"
+                    android:layout_width="wrap_content"
+                    android:layout_height="72dp"
+                    android:layout_weight="1"
+                    android:background=" #00ff00"
+                    android:onClick="b36"
+                    android:text="Present"
+                    app:iconGravity="end" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="10dp"
+                android:background="?android:attr/dividerVertical" />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="#65B3E8"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/t37"
+                    android:layout_width="264dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_weight="1"
+                    android:text="5. Mayank Mishra"
+                    android:textColor="#090909"
+                    android:textSize="20sp" />
+
+                <Button
+                    android:id="@+id/b37"
+                    android:layout_width="wrap_content"
+                    android:layout_height="72dp"
+                    android:layout_weight="1"
+                    android:background=" #00ff00"
+                    android:onClick="b37"
+                    android:text="Present"
+                    app:iconGravity="end" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="10dp"
+                android:background="?android:attr/dividerVertical" />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="#65B3E8"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/t38"
+                    android:layout_width="264dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_weight="1"
+                    android:text="5. Mayank Mishra"
+                    android:textColor="#090909"
+                    android:textSize="20sp" />
+
+                <Button
+                    android:id="@+id/b38"
+                    android:layout_width="wrap_content"
+                    android:layout_height="72dp"
+                    android:layout_weight="1"
+                    android:background=" #00ff00"
+                    android:onClick="b38"
+                    android:text="Present"
+                    app:iconGravity="end" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="10dp"
+                android:background="?android:attr/dividerVertical" />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="#65B3E8"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/t39"
+                    android:layout_width="264dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_weight="1"
+                    android:text="5. Mayank Mishra"
+                    android:textColor="#090909"
+                    android:textSize="20sp" />
+
+                <Button
+                    android:id="@+id/b39"
+                    android:layout_width="wrap_content"
+                    android:layout_height="72dp"
+                    android:layout_weight="1"
+                    android:background=" #00ff00"
+                    android:onClick="b39"
+                    android:text="Present"
+                    app:iconGravity="end" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="10dp"
+                android:background="?android:attr/dividerVertical" />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="#65B3E8"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/t40"
+                    android:layout_width="264dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_weight="1"
+                    android:text="5. Mayank Mishra"
+                    android:textColor="#090909"
+                    android:textSize="20sp" />
+
+                <Button
+                    android:id="@+id/b40"
+                    android:layout_width="wrap_content"
+                    android:layout_height="72dp"
+                    android:layout_weight="1"
+                    android:background=" #00ff00"
+                    android:onClick="b40"
+                    android:text="Present"
+                    app:iconGravity="end" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="10dp"
+                android:background="?android:attr/dividerVertical" />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="#65B3E8"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/t41"
+                    android:layout_width="264dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_weight="1"
+                    android:text="5. Mayank Mishra"
+                    android:textColor="#090909"
+                    android:textSize="20sp" />
+
+                <Button
+                    android:id="@+id/b41"
+                    android:layout_width="wrap_content"
+                    android:layout_height="72dp"
+                    android:layout_weight="1"
+                    android:background=" #00ff00"
+                    android:onClick="b41"
+                    android:text="Present"
+                    app:iconGravity="end" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="10dp"
+                android:background="?android:attr/dividerVertical" />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="#65B3E8"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/t42"
+                    android:layout_width="264dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_weight="1"
+                    android:text="5. Mayank Mishra"
+                    android:textColor="#090909"
+                    android:textSize="20sp" />
+
+                <Button
+                    android:id="@+id/b42"
+                    android:layout_width="wrap_content"
+                    android:layout_height="72dp"
+                    android:layout_weight="1"
+                    android:background=" #00ff00"
+                    android:onClick="b42"
+                    android:text="Present"
+                    app:iconGravity="end" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="10dp"
+                android:background="?android:attr/dividerVertical" />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="#65B3E8"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/t43"
+                    android:layout_width="264dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_weight="1"
+                    android:text="5. Mayank Mishra"
+                    android:textColor="#090909"
+                    android:textSize="20sp" />
+
+                <Button
+                    android:id="@+id/b43"
+                    android:layout_width="wrap_content"
+                    android:layout_height="72dp"
+                    android:layout_weight="1"
+                    android:background=" #00ff00"
+                    android:onClick="b43"
+                    android:text="Present"
+                    app:iconGravity="end" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="10dp"
+                android:background="?android:attr/dividerVertical" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="#65B3E8"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/t44"
+                    android:layout_width="264dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_weight="1"
+                    android:text="5. Mayank Mishra"
+                    android:textColor="#090909"
+                    android:textSize="20sp" />
+
+                <Button
+                    android:id="@+id/b44"
+                    android:layout_width="wrap_content"
+                    android:layout_height="72dp"
+                    android:layout_weight="1"
+                    android:background=" #00ff00"
+                    android:onClick="b44"
+                    android:text="Present"
+                    app:iconGravity="end" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="10dp"
+                android:background="?android:attr/dividerVertical" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="#65B3E8"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/t45"
+                    android:layout_width="264dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_weight="1"
+                    android:text="5. Mayank Mishra"
+                    android:textColor="#090909"
+                    android:textSize="20sp" />
+
+                <Button
+                    android:id="@+id/b45"
+                    android:layout_width="wrap_content"
+                    android:layout_height="72dp"
+                    android:layout_weight="1"
+                    android:background=" #00ff00"
+                    android:onClick="b45"
+                    android:text="Present"
+                    app:iconGravity="end" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="10dp"
+                android:background="?android:attr/dividerVertical" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="#65B3E8"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/t46"
+                    android:layout_width="264dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_weight="1"
+                    android:text="5. Mayank Mishra"
+                    android:textColor="#090909"
+                    android:textSize="20sp" />
+
+                <Button
+                    android:id="@+id/b46"
+                    android:layout_width="wrap_content"
+                    android:layout_height="72dp"
+                    android:layout_weight="1"
+                    android:background=" #00ff00"
+                    android:onClick="b46"
+                    android:text="Present"
+                    app:iconGravity="end" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="10dp"
+                android:background="?android:attr/dividerVertical" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="#65B3E8"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/t47"
+                    android:layout_width="264dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_weight="1"
+                    android:text="5. Mayank Mishra"
+                    android:textColor="#090909"
+                    android:textSize="20sp" />
+
+                <Button
+                    android:id="@+id/b47"
+                    android:layout_width="wrap_content"
+                    android:layout_height="72dp"
+                    android:layout_weight="1"
+                    android:background=" #00ff00"
+                    android:onClick="b47"
+                    android:text="Present"
+                    app:iconGravity="end" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="10dp"
+                android:background="?android:attr/dividerVertical" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="#65B3E8"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/t48"
+                    android:layout_width="264dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_weight="1"
+                    android:text="5. Mayank Mishra"
+                    android:textColor="#090909"
+                    android:textSize="20sp" />
+
+                <Button
+                    android:id="@+id/b48"
+                    android:layout_width="wrap_content"
+                    android:layout_height="72dp"
+                    android:layout_weight="1"
+                    android:background=" #00ff00"
+                    android:onClick="b48"
+                    android:text="Present"
+                    app:iconGravity="end" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="10dp"
+                android:background="?android:attr/dividerVertical" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="#65B3E8"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/t49"
+                    android:layout_width="264dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_weight="1"
+                    android:text="5. Mayank Mishra"
+                    android:textColor="#090909"
+                    android:textSize="20sp" />
+
+                <Button
+                    android:id="@+id/b49"
+                    android:layout_width="wrap_content"
+                    android:layout_height="72dp"
+                    android:layout_weight="1"
+                    android:background=" #00ff00"
+                    android:onClick="b49"
+                    android:text="Present"
+                    app:iconGravity="end" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="10dp"
+                android:background="?android:attr/dividerVertical" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="#65B3E8"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/t50"
+                    android:layout_width="264dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_weight="1"
+                    android:text="5. Mayank Mishra"
+                    android:textColor="#090909"
+                    android:textSize="20sp" />
+
+                <Button
+                    android:id="@+id/b50"
+                    android:layout_width="wrap_content"
+                    android:layout_height="72dp"
+                    android:layout_weight="1"
+                    android:background=" #00ff00"
+                    android:onClick="b50"
+                    android:text="Present"
+                    app:iconGravity="end" />
+            </LinearLayout>
+
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="10dp"
+                android:background="?android:attr/dividerVertical" />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="#65B3E8"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/t51"
+                    android:layout_width="264dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_weight="1"
+                    android:text="5. Mayank Mishra"
+                    android:textColor="#090909"
+                    android:textSize="20sp" />
+
+                <Button
+                    android:id="@+id/b51"
+                    android:layout_width="wrap_content"
+                    android:layout_height="72dp"
+                    android:layout_weight="1"
+                    android:background=" #00ff00"
+                    android:onClick="b51"
+                    android:text="Present"
+                    app:iconGravity="end" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="10dp"
+                android:background="?android:attr/dividerVertical" />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="#65B3E8"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/t52"
+                    android:layout_width="264dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_weight="1"
+                    android:text="5. Mayank Mishra"
+                    android:textColor="#090909"
+                    android:textSize="20sp" />
+
+                <Button
+                    android:id="@+id/b52"
+                    android:layout_width="wrap_content"
+                    android:layout_height="72dp"
+                    android:layout_weight="1"
+                    android:background=" #00ff00"
+                    android:onClick="b52"
+                    android:text="Present"
+                    app:iconGravity="end" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="10dp"
+                android:background="?android:attr/dividerVertical" />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="#65B3E8"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/t53"
+                    android:layout_width="264dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_weight="1"
+                    android:text="5. Mayank Mishra"
+                    android:textColor="#090909"
+                    android:textSize="20sp" />
+
+                <Button
+                    android:id="@+id/b53"
+                    android:layout_width="wrap_content"
+                    android:layout_height="72dp"
+                    android:layout_weight="1"
+                    android:background=" #00ff00"
+                    android:onClick="b53"
+                    android:text="Present"
+                    app:iconGravity="end" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="10dp"
+                android:background="?android:attr/dividerVertical" />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="#65B3E8"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/t54"
+                    android:layout_width="264dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_weight="1"
+                    android:text="5. Mayank Mishra"
+                    android:textColor="#090909"
+                    android:textSize="20sp" />
+
+                <Button
+                    android:id="@+id/b54"
+                    android:layout_width="wrap_content"
+                    android:layout_height="72dp"
+                    android:layout_weight="1"
+                    android:background=" #00ff00"
+                    android:onClick="b54"
+                    android:text="Present"
+                    app:iconGravity="end" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="10dp"
+                android:background="?android:attr/dividerVertical" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="#65B3E8"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/t55"
+                    android:layout_width="264dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_weight="1"
+                    android:text="5. Mayank Mishra"
+                    android:textColor="#090909"
+                    android:textSize="20sp" />
+
+                <Button
+                    android:id="@+id/b55"
+                    android:layout_width="wrap_content"
+                    android:layout_height="72dp"
+                    android:layout_weight="1"
+                    android:background=" #00ff00"
+                    android:onClick="b55"
+                    android:text="Present"
+                    app:iconGravity="end" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="10dp"
+                android:background="?android:attr/dividerVertical" />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="#65B3E8"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/t56"
+                    android:layout_width="264dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_weight="1"
+                    android:text="5. Mayank Mishra"
+                    android:textColor="#090909"
+                    android:textSize="20sp" />
+
+                <Button
+                    android:id="@+id/b56"
+                    android:layout_width="wrap_content"
+                    android:layout_height="72dp"
+                    android:layout_weight="1"
+                    android:background=" #00ff00"
+                    android:onClick="b56"
+                    android:text="Present"
+                    app:iconGravity="end" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="10dp"
+                android:background="?android:attr/dividerVertical" />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="#65B3E8"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/t57"
+                    android:layout_width="264dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_weight="1"
+                    android:text="5. Mayank Mishra"
+                    android:textColor="#090909"
+                    android:textSize="20sp" />
+
+                <Button
+                    android:id="@+id/b57"
+                    android:layout_width="wrap_content"
+                    android:layout_height="72dp"
+                    android:layout_weight="1"
+                    android:background=" #00ff00"
+                    android:onClick="b57"
+                    android:text="Present"
+                    app:iconGravity="end" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="10dp"
+                android:background="?android:attr/dividerVertical" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:id="@+id/lay"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:background="#65B3E8"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/t58"
+                        android:layout_width="264dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_weight="1"
+                        android:text="5. Mayank Mishra"
+                        android:textColor="#090909"
+                        android:textSize="20sp" />
+
+                    <Button
+                        android:id="@+id/b58"
+                        android:layout_width="wrap_content"
+                        android:layout_height="72dp"
+                        android:layout_weight="1"
+                        android:background=" #00ff00"
+                        android:onClick="b58"
+                        android:text="Present"
+                        app:iconGravity="end" />
+                </LinearLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="10dp"
+                    android:background="?android:attr/dividerVertical" />
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:background="#65B3E8"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/t59"
+                        android:layout_width="264dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_weight="1"
+                        android:text="5. Mayank Mishra"
+                        android:textColor="#090909"
+                        android:textSize="20sp" />
+
+                    <Button
+                        android:id="@+id/b59"
+                        android:layout_width="wrap_content"
+                        android:layout_height="72dp"
+                        android:layout_weight="1"
+                        android:background=" #00ff00"
+                        android:onClick="b59"
+                        android:text="Present"
+                        app:iconGravity="end" />
+                </LinearLayout>
+            </LinearLayout>
+
+
+
+            <Button
+                android:id="@+id/button2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="done"
+                android:text="DONE" />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="10dp"
+                android:background="?android:attr/dividerVertical" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
+

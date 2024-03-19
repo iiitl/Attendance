@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#65B3E8"
+    android:gravity="center"
+    android:onClick="coa"
+    android:orientation="vertical"
+    tools:context=".subject">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="350dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="8dp"
+        app:cardBackgroundColor="#C4EBFD"
+        app:cardCornerRadius="50dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="CHOOSE SUBJECT"
+                android:textColor="#65B3E8"
+                android:textSize="35sp" />
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/editTextText"
+            android:layout_width="245dp"
+            android:layout_height="50dp"
+            android:layout_margin="5dp"
+            android:background="#d6d8d7"
+            android:ems="10"
+            android:gravity="center"
+            android:hint="Any Other"
+            android:inputType="text" />
+
+        <Button
+
+            android:layout_width="250dp"
+            android:layout_height="60dp"
+            android:onClick="ds"
+            android:text="Data Structures" />
+
+        <Button
+
+            android:layout_width="250dp"
+            android:layout_height="60dp"
+            android:onClick="wda"
+            android:text="W.D.A." />
+
+        <Button
+
+            android:layout_width="250dp"
+            android:layout_height="60dp"
+            android:onClick="oop"
+            android:text="Object Oriented programming" />
+
+        <Button
+
+            android:layout_width="250dp"
+            android:layout_height="60dp"
+            android:onClick="coa"
+            android:text="computer organisation and architecture" />
+
+        <Button
+
+            android:layout_width="250dp"
+            android:layout_height="60dp"
+            android:onClick="pc"
+            android:text="professional communication" />
+
+        <Button
+
+            android:layout_width="250dp"
+            android:layout_height="60dp"
+            android:onClick="sp"
+            android:text="sports" />
+
+        <Button
+
+            android:layout_width="250dp"
+            android:layout_height="60dp"
+            android:onClick="yoga"
+            android:text="Yoga" />
+
+
+    </LinearLayout>
+
+</LinearLayout>
